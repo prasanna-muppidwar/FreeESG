@@ -4,10 +4,10 @@ We empowers organizations to achieve effortless Environmental, Social, and Gover
 
 ## **Key Features:**
 
-* **Automated Report Generation:** KuKi dynamically populates ESG reports based on uploaded documents, eliminating manual data entry and reducing errors.
+* **Automated Report Generation:** FreeESG dynamically populates ESG reports based on uploaded documents, eliminating manual data entry and reducing errors.
 * **Simplified Compliance:** Our software stays up-to-date with evolving regulatory standards, ensuring your reports meet all compliance requirements.
-* **Auditable & Verifiable Outputs:** KuKi provides verifiable data and reports, building trust with stakeholders and investors.
-* **Sustainability Focus:** KuKi empowers you to go beyond compliance, fostering a culture of sustainability within your organization.
+* **Auditable & Verifiable Outputs:** FreeESG provides verifiable data and reports, building trust with stakeholders and investors.
+* **Sustainability Focus:** FreeESG empowers you to go beyond compliance, fostering a culture of sustainability within your organization.
 
 ## **Benefits:**
 
