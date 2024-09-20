@@ -77,18 +77,18 @@ const Footer = () => {
     <footer className="text-black bg-white body-font w-screen">
       <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
         <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
-          <Image src={"/logos/kuki.svg"} width={40} height={40} alt={"logo"} />
-          <span className="ml-3 text-xl text-black">Kuki</span>
+          <Image src={"/logos/FreeESG.svg"} width={40} height={40} alt={"logo"} />
+          <span className="ml-3 text-xl text-black">FreeESG</span>
         </a>
         <p className="text-sm text-black sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">
-          © 2024 KuKi —
+          © 2024 FreeESG —
           <a
-            href="http://kuki.co.in"
+            href="http://FreeESG.co.in"
             className="text-gray-900 ml-1"
             target="_blank"
             rel="noopener noreferrer"
           >
-            kuki.co
+            FreeESG.co
           </a>
         </p>
         <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">

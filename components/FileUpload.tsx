@@ -85,7 +85,7 @@ const FileUpload: React.FC<FileUploadProps> = ({ onFileUpload, filename }) => {
 
       const uploadPromise = file.map(async (file) => {
         const { data, error } = await supabase.storage
-          .from('kuki')
+          .from('FreeESG')
           .upload(`${projectName}/${file.name}`, file);
 
         if (error) {
@@ -106,7 +106,7 @@ const FileUpload: React.FC<FileUploadProps> = ({ onFileUpload, filename }) => {
       setModalOpen(true);
 
       const { data: files, error: filesError } = await supabase.storage
-        .from('kuki')
+        .from('FreeESG')
         .list(`${projectName}/`, {
           limit: 100,
           offset: 0,
@@ -124,7 +124,7 @@ const FileUpload: React.FC<FileUploadProps> = ({ onFileUpload, filename }) => {
       const fileNames = validFiles.map((file) => file.name);
       const fileUrls = validFiles.map(
         (file) =>
-          supabase.storage.from('kuki').getPublicUrl(`${projectName}/${file.name}`)
+          supabase.storage.from('FreeESG').getPublicUrl(`${projectName}/${file.name}`)
             .data.publicUrl
       );
 

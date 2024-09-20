@@ -10,11 +10,11 @@ const inter = Inter({
 
 export const metadata = {
   title: {
-    default: "Kuki ESG Compliance",
-    template: "%s | Kuki",
+    default: "FreeESG ESG Compliance",
+    template: "%s | FreeESG",
   },
   description: "A online art evaluator and marketplace for all art fanatics",
-  icons: [{ rel: "icon", url: "./kuki.svg" }],
+  icons: [{ rel: "icon", url: "./FreeESG.svg" }],
 };
 
 export default function RootLayout({

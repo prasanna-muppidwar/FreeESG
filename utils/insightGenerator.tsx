@@ -14,7 +14,7 @@ export async function generateInsights(files: File[]): Promise<Insight[]> {
       formData.append('docs', file);
     });
 
-    const response = await axios.post('https://kukiapi123.azurewebsites.net/api/insights', formData, {
+    const response = await axios.post('https://FreeESGapi123.azurewebsites.net/api/insights', formData, {
       headers: {
         'Content-Type': 'multipart/form-data',
       },

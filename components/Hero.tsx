@@ -15,7 +15,7 @@ const Hero = () => {
             {/* HEADER  */}
             {/* ======= */}
             <h1 className="title-font font-bold sm:text-5xl text-4xl mb-4 text-black">
-              Welcome To KuKi
+              Welcome To FreeESG
             </h1>
             <p className="mb-8 leading-relaxed text-lg">
               Embracing sustainable practices marks the dawn of a transformative
@@ -78,20 +78,20 @@ const Hero = () => {
             {/* CONTENT */}
             {/* ======= */}
             <p className="mb-8 leading-relaxed text-justify text-black">
-              Welcome to KuKi's comprehensive ESG Compliance Reporting Solution
+              Welcome to FreeESG's comprehensive ESG Compliance Reporting Solution
               – your gateway to effortless Environmental, Social, and Governance
               (ESG) compliance and sustainability excellence. Our cutting-edge
               software is meticulously designed to simplify the complexities of
-              ESG reporting for organizations of all sizes. KuKi ensures a
+              ESG reporting for organizations of all sizes. FreeESG ensures a
               seamless experience for our clients by dynamically filling ESG
               reports based on uploaded documents. Say goodbye to the headaches
               of data complexity and evolving reporting standards – our solution
               addresses these pain points head-on, allowing you to focus on what
-              truly matters: making a positive impact. What sets KuKi apart is
+              truly matters: making a positive impact. What sets FreeESG apart is
               our dedication to not just meet regulatory standards, but exceed
               them. Our technological tools provide auditable and verifiable
               outputs, instilling confidence in the accuracy of your ESG
-              reports. With KuKi by your side, your organisation not only meets
+              reports. With FreeESG by your side, your organisation not only meets
               compliance standards but also leads the way towards a more
               sustainable future.
             </p>

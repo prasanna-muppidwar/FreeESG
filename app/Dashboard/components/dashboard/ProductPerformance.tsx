@@ -13,7 +13,7 @@ import DashboardCard from "@/app/Dashboard//components/shared/DashboardCard";
 const products = [
   {
     id: "1",
-    name: "Kuki.co",
+    name: "FreeESG.co",
     post: "Web Designer",
     pname: "Elite Admin",
     priority: "Low",
@@ -22,7 +22,7 @@ const products = [
   },
   {
     id: "2",
-    name: "Kuki.co",
+    name: "FreeESG.co",
     post: "Project Manager",
     pname: "Real Homes WP Theme",
     priority: "Medium",
@@ -31,7 +31,7 @@ const products = [
   },
   {
     id: "3",
-    name: "Kuki.co",
+    name: "FreeESG.co",
     post: "Project Manager",
     pname: "MedicalPro WP Theme",
     priority: "High",
@@ -40,7 +40,7 @@ const products = [
   },
   {
     id: "4",
-    name: "Kuki.co",
+    name: "FreeESG.co",
     post: "Frontend Engineer",
     pname: "Hosting Press HTML",
     priority: "Critical",

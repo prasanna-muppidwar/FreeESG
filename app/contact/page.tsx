@@ -32,15 +32,15 @@ const Contact: React.FC = () => {
           <article className='bg-variant p-5 rounded-xl text-center border border-transparent transition hover:bg-transparent hover:border-variant'>
             <AiOutlineMail className='text-3xl mb-2 mx-auto' />
             <h4 className="text-xl">Email</h4>
-            <h5 className="text-sm">team@kuki.co.in</h5>
-            <a href="mailto:team@kuki.co.in" target='_blank' rel='noopener noreferrer' className="mt-2 inline-block text-sm">Send a Message</a>
+            <h5 className="text-sm"></h5>
+            <a href="mailto:team@FreeESG.co.in" target='_blank' rel='noopener noreferrer' className="mt-2 inline-block text-sm">Send a Message</a>
           </article>
 
           <article className='bg-variant p-5 rounded-xl text-center border border-transparent transition hover:bg-transparent hover:border-variant'>
             <BsMessenger className='text-3xl mb-2 mx-auto' />
             <h4 className="text-xl">Linkedin</h4>
-            <h5 className="text-sm">Kuki Co.</h5>
-            <a href="https://www.linkedin.com/company/kukico/" target='_blank' rel='noopener noreferrer' className="mt-2 inline-block text-sm">Send a Message</a>
+            <h5 className="text-sm"></h5>
+            <a href="https://www.linkedin.com/company/FreeESGco/" target='_blank' rel='noopener noreferrer' className="mt-2 inline-block text-sm">Send a Message</a>
           </article>
 
           <article className='bg-variant p-5 rounded-xl text-center border border-transparent transition hover:bg-transparent hover:border-variant'>

@@ -15,7 +15,7 @@ export function AccordionDemo() {
           <AccordionContent>
            We offer three deployment options:
              <br /> 
-              &#9642; KuKi Cloud (Secure Azure Server Hosting)
+              &#9642; FreeESG Cloud (Secure Azure Server Hosting)
              <br />
               &#9642; Private Cloud (Hosted on any private cloud service used by the customer)
              <br />
@@ -25,7 +25,7 @@ export function AccordionDemo() {
         <AccordionItem value="item-2">
           <AccordionTrigger>Can the system integrate with in-house systems (e.g., ERP, CRM)?  </AccordionTrigger>
           <AccordionContent>
-            Yes, KuKi Solutions has APIs that enable seamless integration with in-house systems such as ERP systems (e.g., SAP, Oracle) and CRM platforms. We recommend API integration for efficient calculation and tracking of high volumes of ESG data.
+            Yes, FreeESG Solutions has APIs that enable seamless integration with in-house systems such as ERP systems (e.g., SAP, Oracle) and CRM platforms. We recommend API integration for efficient calculation and tracking of high volumes of ESG data.
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-3">

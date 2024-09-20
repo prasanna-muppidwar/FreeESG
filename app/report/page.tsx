@@ -57,7 +57,7 @@ export default function Create() {
         onSidebarClose={handleSidebarClose}
       /> */}
       <div className="flex-grow relative max-w-md w-full max-h-[70vh] mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white border-2 border-black">
-        <h2 className="font-bold text-2xl text-black">Welcome to Kuki</h2>
+        <h2 className="font-bold text-2xl text-black">Welcome to FreeESG</h2>
         <p className="text-neutral-600 text-lg max-w-sm mt-2">
           Fill The Information & Upload The Docs:
         </p>

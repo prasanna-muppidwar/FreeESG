@@ -77,7 +77,7 @@
     "tailwindcss": "^3.3.0",
     "typescript": "^5.4.5"
   },
-  "description": "**KuKi** empowers organizations to achieve effortless Environmental, Social, and Governance (ESG) compliance and reporting excellence. Our user-friendly platform streamlines the complexities of ESG reporting, allowing you to focus on your sustainability goals.",
+  "description": "**FreeESG** empowers organizations to achieve effortless Environmental, Social, and Governance (ESG) compliance and reporting excellence. Our user-friendly platform streamlines the complexities of ESG reporting, allowing you to focus on your sustainability goals.",
   "main": "postcss.config.js",
   "directories": {
     "lib": "lib"

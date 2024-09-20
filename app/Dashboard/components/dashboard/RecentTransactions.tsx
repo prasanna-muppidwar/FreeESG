@@ -84,7 +84,7 @@ const RecentTransactions = () => {
             <TimelineSeparator>
               <TimelineDot color="success" variant="outlined" />
             </TimelineSeparator>
-            <TimelineContent>KuKi.co.in</TimelineContent>
+            <TimelineContent>FreeESG.co.in</TimelineContent>
           </TimelineItem>
         </Timeline>
       </>
