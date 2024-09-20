@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PDF Q&A Generator</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>PDF Q&A Generator</h1>
+    <form id="qa-form" action="/api/process" method="post" enctype="multipart/form-data">
+        <input type="file" name="docs" multiple>
+        <button type="submit">Process PDFs</button>
+    </form>
+    <form id="insights-form" action="/api/insights" method="post" enctype="multipart/form-data">
+        <input type="file" name="docs" multiple>
+        <button type="submit">Generate Insights</button>
+    </form>
+    <div id="results"></div>
+    <div id="insights"></div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#qa-form').on('submit', function(e) {
+                e.preventDefault();
+                $.ajax({
+                    url: '/api/process',
+                    type: 'POST',
+                    data: new FormData(this),
+                    processData: false,
+                    contentType: false,
+                    success: function(data) {
+                        $('#results').html(data.result);
+                    }
+                });
+            });
+            
+            $('#insights-form').on('submit', function(e) {
+                e.preventDefault();
+                $.ajax({
+                    url: '/api/insights',
+                    type: 'POST',
+                    data: new FormData(this),
+                    processData: false,
+                    contentType: false,
+                    success: function(data) {
+                        let insightsHtml = '';
+                        for (let question in data.insights) {
+                            insightsHtml += `<h3>${question}</h3><p>${data.insights[question]}</p>`;
+                        }
+                        $('#insights').html(insightsHtml);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

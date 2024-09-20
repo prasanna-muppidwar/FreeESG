@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  my-app:
+    build: .
+    ports:
+      - "3000:3000"
+      - "5328:5328"
+    environment:
+      FLASK_APP: api/index.py
+      FLASK_RUN_PORT: 5328
+      FLASK_DEBUG: 1

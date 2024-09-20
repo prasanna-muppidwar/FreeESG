@@ -1,0 +1,27 @@
+.container {
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.insight {
+  margin-bottom: 20px;
+}
+
+.insightTitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.insightContent {
+  font-size: 1rem;
+}
+
+.buttonContainer {
+  text-align: center;
+  margin-top: 20px;
+}
